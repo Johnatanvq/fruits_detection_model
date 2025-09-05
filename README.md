@@ -54,18 +54,19 @@ This repository contains an **educational project** for training and deploying a
 
 ---
 ## ⚠️ On OAK-1 Lite, inference currently runs at ~4-5 FPS.
-<div align="center">
-<img src="https://github.com/user-attachments/assets/8b7d081c-7659-47b4-838a-e4913d2cb022" 
-     alt="oak_video" width="600">
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/ce639ee0-cf71-41be-87ac-e1c0893608be" alt="oak_cam" width="49%">
+  <img src="https://github.com/user-attachments/assets/8b7d081c-7659-47b4-838a-e4913d2cb022" alt="oak_video" width="49%">
 </div>
 
 Possible causes:
 
-  <ul>
-    <li>Model too heavy for the hardware.</li>
-    <li>Script configuration (load_oak_cam.py) could be optimized.</li>
-    <li>High input resolution (trained at 640×640).</li>
-  </ul>
+<ul>
+  <li>Model too heavy for the hardware.</li>
+  <li>Script configuration (load_oak_cam.py) could be optimized.</li>
+  <li>High input resolution (trained at 640×640).</li>
+</ul>
 
 Improvements possible by adjusting resolution, thresholds, pruning, or quantization.
 
