@@ -7,7 +7,7 @@ This repository contains an **educational project** for training and deploying a
 ## 📖 Overview
 
 - **Training**: A YOLOv11s model trained on a compact dataset of fruits.  
-- **Inference**: Scripts to run detection on both **PC** (with webcam) and **Luxonis OAK devices**.  
+- **Inference**: Scripts to run detection on both **PC** and **Luxonis OAK camera**.  
 - **Evaluation**: Curves, confusion matrix, and metrics included in the `results/` folder.  
 - **Purpose**: Educational and open-source, showing end-to-end workflow from dataset → training → deployment.  
 
